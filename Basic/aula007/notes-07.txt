@@ -1,0 +1,26 @@
+Operadores
+> aritmeticos:
++, -, *, /, %, **
+  precedencia
+()        |
+**        |
+* / %     |
++ -       V
+
+> Atribuição
+Atribuição simples: =
+var a = 5 + 3
+var b = a % 5
+var c = 5 * b ** 2
+
+Auto-atribuições     Simplificando
+var n = 3
+n = n + 4           n += 4
+n = n - 5           n -= 5
+
+Incremento
+var x = 5
+x = x + 1           x ++
+x = x - 1           x --
+
+ relacionais, lógicos, ternário
